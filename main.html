@@ -18,12 +18,13 @@
 		<label for = "email">Email</label>
 		<input type = "Email" required id = "email" placeholder = "Email"/>
 		<br>
-		<label for = "gender_m,gender_f">Gender</label>
-		<input type = "radio" required id = "gender_m" name = "gender"/>Male
-		<input type = "radio" required id = "gender_f" name = "gender"/>Female
+		<label for = "gender_m">Male</label>
+		<input type = "radio" required id = "gender_m" name = "gender"/>
+		<label for = "gender_f">Female</label>
+		<input type = "radio" required id = "gender_f" name = "gender"/>
 		<br>
 		<label>Car Brands</label>
-		<select multiple required id = "cars"  > 
+		<select required id = "cars"  > 
 			<option selected>--Please choose an option--</option>
 			<option>TATA</option>
 			<option>Honda</option>
@@ -33,7 +34,7 @@
 		</select>
 		<br>
 		<label for = "age">Age</label>
-		<input type = "number" reqiured id= "age" placeholder = "Age"/>
+		<input type = "number" required id= "age" placeholder = "Age"/>
 		<br>
 		<label for = "dob">DOB</label>
 		<input type = "date" required id = "dob"/>
@@ -44,7 +45,8 @@
 		<label for = "password">Password</label>
 		<input type = "password" required id = "password" placeholder = "Password"/>
 		<br>
-		<input type = "checkbox" required id = "tos"/>I agree to the TOS
+		<label for = "tos">I agree to the TOS</label>
+		<input type = "checkbox" required id = "tos"/>
 		<br>
 		<button type = submit>submit</button>
 	</form>
